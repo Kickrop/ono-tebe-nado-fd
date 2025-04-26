@@ -1,20 +1,16 @@
-@font-face {
-    font-family: Ralewaybold;
-    font-weight: 700;
-    src: url(../fonts/Raleway-Bold.woff);
-}
-@font-face {
-    font-family: Ralewaybold;
-    font-weight: 700;
-    src: url(../fonts/Raleway-Bold.woff2);
-}
-@font-face {
-    font-family: Ralewayregular;
-    font-weight: 400;
-    src: url(../fonts/Raleway-Regular.woff);
-}
-@font-face {
-    font-family: Ralewayregular;
-    font-weight: 400;
-    src: url(../fonts/Raleway-Regular.woff2);
+@font-face { 
+    font-family: Raleway; 
+    src: 
+      url(./Raleway-Regular.woff2) format('woff2'), 
+      url(./Raleway-Regular.woff) format('woff'); 
+    font-weight: normal; 
+    font-display: swap; 
+  } 
+  @font-face { 
+    font-family: Raleway; 
+    src: 
+      url(./Raleway-Bold.woff2) format('woff2'), 
+      url(./Raleway-Bold.woff) format('woff'); 
+    font-weight: bold; 
+    font-display: swap; 
 }
